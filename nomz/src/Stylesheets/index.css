@@ -1,0 +1,227 @@
+                    /* LANDING PAGE */
+
+                    
+                    /* HOME PAGE */
+  /* Container for Fridge,Freezer,Pantry Buttons*/
+.homepage {
+  margin-top: 20px;
+  padding: 30px 15px; 
+}
+
+  /* Container for Find&Add Recipe Buttons*/
+.homepage2 {
+  margin: 20px;
+  padding: 10px; 
+  justify-content: space-between;
+}
+
+  /* Align Center Find&Add Recipe Buttons*/
+.homeButton {
+  text-align: center;
+}
+
+
+                    /* KITCHEN PAGE */
+  /* Container for Sidebar */
+.sidebar {
+  margin: 20px;
+  padding: 10px;
+  justify-content: center;
+  text-align: center;
+  position: sticky;
+}
+
+.kitchen-ingred-container {
+  max-width: calc(100% - 96px);
+  margin: auto;
+  padding: 10px; 
+  justify-content: space-between;
+}
+
+  /* Re-Size Ingredient Icon top of Card*/
+.card-img-top {
+  width: 50%;
+  height: 25%;
+  object-fit: contain;
+}
+
+  /* Box for Ingredient Card */
+.ingredient-box {
+  border-radius: 10px 10px 10px 10px;
+  overflow: auto;
+  max-height: 430px;
+  padding: 5px;
+}
+
+  /* Grid to Display Ingredient Cards */
+.grid {
+  min-height: 100%;
+  display: flex;
+  flex-wrap: wrap;
+  flex-direction: row;
+  align-content: flex-start;
+}
+
+  /* 5 Cards Per Row on Grid to Display Ingredient Cards */
+.grid > div {
+  width: calc(100% / 6);
+}
+
+  /* No Clue */
+.column {
+  padding: 10px
+}
+
+  /* No Clue */
+.column.side {
+  -webkit-flex: 1;
+  -ms-flex: 1;
+  flex: 1;
+}
+
+  /* No Clue */
+.column.large {
+  -webkit-flex: 4;
+  -ms-flex: 4;
+  flex: 4;
+}
+
+  /* Kitchen Filter by Storage Container */
+.filter-container {
+  flex-direction: column;
+  justify-content: center;
+  align-self: center;
+}
+
+  /* Kitchen Filter by Storage Buttons */
+/* .filter-button {
+  display: flex;
+  margin: 5px;
+  align-self: center;
+} */
+
+  /* Ingredient Card Header/Title Centered */
+.card-title {
+  text-align: center;
+}
+
+  /* Ingredient Card Body Centered */
+.card-text {
+  text-align: center; 
+}
+
+
+                    /* GROCERY PAGE */
+  /* Grocery List Grid */
+.grocery-grid {
+  min-height: 100%;
+  display: flex;
+  flex-wrap: wrap;
+  flex-direction: row;
+  justify-content: space-between;
+}
+
+ /* Grocery List Card - 1 Per Row */
+.grocery-grid > div {
+  flex-basis: calc(100% - 40px)
+}
+
+ /* Grocery Card Box for Grocery List Grid */
+.grocery-box {
+  border-radius: 10px 10px 10px 10px;
+  overflow: auto;
+  margin: 5px;
+  max-width: 100%;
+  height: 150px;
+  border: 2px grey solid;
+  
+}
+
+ /* Grocery Card Image Formatted */
+.grocery-img {
+  margin: auto;
+  width: 50%;
+  height: 50%;
+  object-fit: contain;
+  align-self: center;
+}
+
+ /* Grocery Card Columns for Icon and Name */
+div.col-md-3 {
+  display: flex;
+  justify-content: center;
+  align-items: center; 
+}
+
+ /* Grocery Card Columns for Buttons */
+div.col-md-6 {
+  display: flex;
+  justify-content: center;
+  align-items: center; 
+}
+
+ /* Grocery Card Buttons */
+.grocery-list-button {
+  margin: 0 5px;
+}
+
+
+
+/* code to refactor */
+
+.nav-layout {
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding-right: 2rem;
+  padding-left: 2rem;
+}
+
+.button-spacing button {
+  margin-left: .5em;
+}
+
+.subnav {
+  background-color: #eaeaea;
+  position: -webkit-sticky;
+  position: sticky;
+  top: 0;
+  z-index: 10;
+  padding: .5rem 1rem;
+}
+
+.subnav h3 {
+  font-size: 20px;
+  margin-bottom: 0px;
+}
+
+.subnav button {
+  margin-left: .5em;
+}
+
+.subnav-container {
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding-right: 2rem;
+  padding-left: 2rem;
+}
+
+.subnav-search {
+  display: flex;
+  align-items: center;
+}
+
+.subnav-filter {
+  display: flex;
+  align-items: center;
+}
+
+.sticky-button {
+  position: sticky;
+  top: calc(100vh - 78px);
+  left: calc(100vw - 202px);
+  z-index: 10;
+}

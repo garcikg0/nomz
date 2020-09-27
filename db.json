@@ -1,0 +1,256 @@
+{
+  "ingredients": [
+    {
+      "id": 1,
+      "kitchen_id": 1,
+      "storage": "Fridge",
+      "name": "Eggs",
+      "image": "https://static.thenounproject.com/png/3479403-200.png",
+      "status": "Available",
+      "notes": "free range XL"
+    },
+    {
+      "id": 2,
+      "kitchen_id": 1,
+      "storage": "Freezer",
+      "name": "Frozen Strawberries",
+      "image": "https://static.thenounproject.com/png/1422989-200.png",
+      "status": "Available",
+      "notes": ""
+    },
+    {
+      "id": 3,
+      "kitchen_id": 1,
+      "storage": "Pantry",
+      "name": "Cumin Powder",
+      "image": "https://static.thenounproject.com/png/1317943-200.png",
+      "status": "Available",
+      "notes": ""
+    },
+    {
+      "id": 4,
+      "kitchen_id": 1,
+      "storage": "Pantry",
+      "name": "Adobo con Azafran",
+      "image": "https://static.thenounproject.com/png/1317943-200.png",
+      "status": "Available",
+      "notes": ""
+    },
+    {
+      "id": 5,
+      "kitchen_id": 1,
+      "storage": "Pantry",
+      "name": "Salt",
+      "image": "https://static.thenounproject.com/png/1317943-200.png",
+      "status": "Available",
+      "notes": ""
+    },
+    {
+      "id": 6,
+      "kitchen_id": 1,
+      "storage": "Pantry",
+      "name": "Pepper",
+      "image": "https://static.thenounproject.com/png/1317943-200.png",
+      "status": "Available",
+      "notes": ""
+    },
+    {
+      "id": 7,
+      "kitchen_id": 1,
+      "storage": "Pantry",
+      "name": "Smoked Paprika",
+      "image": "https://static.thenounproject.com/png/1317943-200.png",
+      "status": "Available",
+      "notes": ""
+    },
+    {
+      "id": 8,
+      "kitchen_id": 1,
+      "storage": "Pantry",
+      "name": "Flour",
+      "image": "https://static.thenounproject.com/png/1015530-200.png",
+      "status": "Available",
+      "notes": ""
+    },
+    {
+      "id": 9,
+      "kitchen_id": 1,
+      "storage": "Pantry",
+      "name": "Baking Powder",
+      "image": "https://static.thenounproject.com/png/1015530-200.png",
+      "status": "Available",
+      "notes": ""
+    },
+    {
+      "id": 10,
+      "kitchen_id": 1,
+      "storage": "Fridge",
+      "name": "Bacon",
+      "image": "https://static.thenounproject.com/png/512954-200.png",
+      "status": "Available",
+      "notes": ""
+    },
+    {
+      "id": 11,
+      "kitchen_id": 1,
+      "storage": "Fridge",
+      "name": "Beef",
+      "image": "https://static.thenounproject.com/png/3524877-200.png",
+      "status": "In Cart",
+      "notes": ""
+    },
+    {
+      "id": 12,
+      "kitchen_id": 1,
+      "storage": "Freezer",
+      "name": "Ginger",
+      "image": "https://static.thenounproject.com/png/3051212-200.png",
+      "status": "Available",
+      "notes": ""
+    },
+    {
+      "id": 13,
+      "kitchen_id": 1,
+      "storage": "Freezer",
+      "name": "Frozen Shrimp",
+      "image": "https://static.thenounproject.com/png/3478937-200.png",
+      "status": "Available",
+      "notes": ""
+    },
+    {
+      "id": 14,
+      "kitchen_id": 1,
+      "storage": "Pantry",
+      "name": "Rice",
+      "image": "https://static.thenounproject.com/png/3523933-200.png",
+      "status": "Available",
+      "notes": ""
+    },
+    {
+      "id": 15,
+      "kitchen_id": 1,
+      "storage": "Pantry",
+      "name": "Spaghetti",
+      "image": "https://static.thenounproject.com/png/3427901-200.png",
+      "status": "Available",
+      "notes": ""
+    },
+    {
+      "id": 16,
+      "kitchen_id": 1,
+      "storage": "Pantry",
+      "name": "Angel Hair Pasta",
+      "image": "https://static.thenounproject.com/png/3427901-200.png",
+      "status": "Available",
+      "notes": ""
+    },
+    {
+      "id": 17,
+      "kitchen_id": 1,
+      "storage": "Fridge",
+      "name": "Yogurt",
+      "image": "https://static.thenounproject.com/png/3479403-200.png",
+      "status": "Available",
+      "notes": ""
+    },
+    {
+      "id": 18,
+      "kitchen_id": 1,
+      "storage": "Pantry",
+      "name": "Vinegar",
+      "image": "https://static.thenounproject.com/png/1317946-200.png",
+      "status": "Available",
+      "notes": ""
+    },
+    {
+      "id": 19,
+      "kitchen_id": 1,
+      "storage": "Fridge",
+      "name": "Chicken",
+      "image": "https://static.thenounproject.com/png/2327576-200.png",
+      "status": "Available",
+      "notes": ""
+    },
+    {
+      "id": 20,
+      "kitchen_id": 1,
+      "storage": "Fridge",
+      "name": "American Cheese",
+      "image": "https://static.thenounproject.com/png/2942672-200.png",
+      "status": "Available",
+      "notes": ""
+    },
+    {
+      "id": 21,
+      "kitchen_id": 1,
+      "storage": "Pantry",
+      "name": "Siracha",
+      "image": "https://static.thenounproject.com/png/1317946-200.png",
+      "status": "None",
+      "notes": ""
+    },
+    {
+      "id": 22,
+      "kitchen_id": 1,
+      "storage": "Pantry",
+      "name": "Bananas",
+      "image": "https://static.thenounproject.com/png/699439-200.png",
+      "status": "Available",
+      "notes": ""
+    },
+    {
+      "id": 23,
+      "kitchen_id": 1,
+      "storage": "Pantry",
+      "name": "Peaches",
+      "image": "https://static.thenounproject.com/png/699439-200.png",
+      "status": "Low",
+      "notes": ""
+    },
+    {
+      "id": 24,
+      "kitchen_id": 1,
+      "storage": "Freezer",
+      "name": "Frozen Acai",
+      "image": "https://static.thenounproject.com/png/699439-200.png",
+      "status": "Available",
+      "notes": ""
+    },
+    {
+      "id": 25,
+      "kitchen_id": 1,
+      "storage": "Freezer",
+      "name": "Frozen Pineapple",
+      "image": "https://static.thenounproject.com/png/699439-200.png",
+      "status": "Available",
+      "notes": ""
+    },
+    {
+      "id": 26,
+      "kitchen_id": 1,
+      "storage": "Fridge",
+      "name": "Orange Juice",
+      "image": "https://static.thenounproject.com/png/1195568-200.png",
+      "status": "None",
+      "notes": ""
+    },
+    {
+      "id": 27,
+      "kitchen_id": 1,
+      "storage": "Pantry",
+      "name": "Potatos",
+      "image": "https://static.thenounproject.com/png/1434570-200.png",
+      "status": "Available",
+      "notes": ""
+    },
+    {
+      "id": 28,
+      "kitchen_id": 1,
+      "storage": "Pantry",
+      "name": "Carrots",
+      "image": "https://static.thenounproject.com/png/1434570-200.png",
+      "status": "Low",
+      "notes": ""
+    }
+  ]
+}
