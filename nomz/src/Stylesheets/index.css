@@ -225,3 +225,20 @@ div.col-md-6 {
   left: calc(100vw - 202px);
   z-index: 10;
 }
+
+                    /* RECIPE SEARCH PAGE */
+.recipe-search-img {
+  margin: 1px;
+  width: 80%;
+  height: 80%;
+  object-fit: contain;
+  align-self: center;
+}
+
+.recipe-search-img-col {
+  max-height: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  position: relative;
+}
