@@ -3,16 +3,32 @@ import HomeNavBar from "./HomeNavBar"
 import { Container, InputGroup, FormControl, Button } from 'react-bootstrap';
 import SearchRecipeCard from "./SearchRecipeCard"
 
+const edamamURL = "https://api.edamam.com/search?q="
+const apiKeys = "&app_id=0b82cc58&app_key=261ccdef93fe9904029ee5ff77011f79"
+const resultAmount = "&from=0&to=20"
+
 class SearchRecipe extends React.Component {
 
     state = {
         searchTerm: "",
-        recipeSearchResults: []
+        recipeSearchResults: [],
+        recipeLibrary: []
+    }
+
+    componentDidMount(){
+        fetch("http://localhost:3000/recipes")
+        .then(r => r.json())
+        .then((recipeArr) => {
+            this.setState({
+                recipeLibrary: recipeArr
+            })
+        })
     }
 
     handleSearch = (evt) => {
         evt.preventDefault()
-        fetch("https://api.edamam.com/search?q=carrot+ginger+dressing+bon+appetit&app_id=0b82cc58&app_key=261ccdef93fe9904029ee5ff77011f79")
+        let searchTerm = this.state.searchTerm
+        fetch(`${edamamURL}${searchTerm}${apiKeys}${resultAmount}`)
         .then(res => res.json())
         .then((searchResultArr) => {
             let resultArr = []
@@ -35,15 +51,23 @@ class SearchRecipe extends React.Component {
         })
     }
 
+    handleSearchTerm = (evt) => {
+        let searchTyped = evt.target.value
+        let urlSearchTerm = searchTyped.split(' ').join('+')
+        this.setState({
+            searchTerm: urlSearchTerm
+        })
+    }
+
     render() {
-        console.log(this.state.recipeSearchResults)
+        console.log(this.state.searchTerm)
         let searchResultArr = this.state.recipeSearchResults.map((recipe) => {
             return <SearchRecipeCard 
             key={recipe.id}
             recipe={recipe}
+            recipeLibrary={this.state.recipeLibrary}
             />
         })
-
         return(<>
             <div >
             <HomeNavBar />
@@ -55,6 +79,7 @@ class SearchRecipe extends React.Component {
                 placeholder="Search for a Recipe"
                 aria-label="Search for a Recipe"
                 aria-describedby="basic-addon2"
+                onChange={this.handleSearchTerm}
                 />
                 <InputGroup.Append>
                 <Button variant="secondary" onClick={this.handleSearch}>Search</Button>

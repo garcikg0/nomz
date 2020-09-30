@@ -242,3 +242,41 @@ div.col-md-6 {
   align-items: center;
   position: relative;
 }
+
+.recipe-box {
+  border-radius: 10px 10px 10px 10px;
+  overflow: auto;
+  margin: 5px;
+  max-width: 100%;
+  min-height: 150px;
+  height: auto;
+  border: 2px grey solid;
+  flex-direction: row;
+}
+
+.recipe-collapse {
+  width: 100%;
+  margin: 5px;
+}
+
+.recipe-table {
+  width: 100%;
+  border: 1px solid black;
+  border-collapse: collapse;
+  margin: auto;
+  text-align: center;
+}
+
+.recipe-row {
+  width: 100%;
+  height: 35px;
+  text-align: left; 
+}
+
+.recipe-cell {
+  border: 1px solid grey;
+  margin: auto;
+  max-width: 220px;
+  padding: 5px;
+  padding-left: 10px;
+}

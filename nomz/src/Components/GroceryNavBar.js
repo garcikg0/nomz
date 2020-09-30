@@ -11,8 +11,10 @@ class GroceryNavBar extends React.Component {
                     <Nav className="container-fluid">
                         <Nav.Item className="ml-auto">
                             <Nav.Link>
+                                <Link to="/myrecipes" exact>
                                 <Button variant="outline-success">My Recipes</Button>{'   '}
-                                <Link to="/searchrecipe">
+                                </Link>
+                                <Link to="/searchrecipe" exact>
                                 <Button variant="outline-success">Find a Recipe</Button>{'   '}
                                 </Link>
                                 <Button variant="outline-danger">Log Out</Button>

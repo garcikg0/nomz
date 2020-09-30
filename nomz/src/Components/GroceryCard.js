@@ -1,5 +1,4 @@
 import React from "react";
-// import { Route, Switch } from 'react-router-dom';
 import { Button, Col, Image, Row } from 'react-bootstrap';
 
 class GroceryCard extends React.Component {

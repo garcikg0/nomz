@@ -5,10 +5,25 @@ import LandingPage from "./LandingPage";
 import MainContainer from "./MainContainer";
 import KitchenContainer from "./KitchenContainer";
 import GroceryList from "./GroceryListContainer";
-import SearchRecipe from "./SearchRecipe"
+import SearchRecipe from "./SearchRecipe";
+import MyRecipesContainer from "./MyRecipesContainer"
 
 
 class App extends React.Component {
+
+  state = {
+    recipeLibrary: []
+  }
+
+  componentDidMount(){
+    fetch("http://localhost:3000/recipes")
+    .then(res => res.json())
+    .then((recipeArr) => {
+        this.setState({
+            recipeLibrary: recipeArr
+        })
+      })
+  }
 
   render() {
     
@@ -25,6 +40,11 @@ class App extends React.Component {
           </Route>
           <Route path="/searchrecipe" exact>
             <SearchRecipe />
+          </Route>
+          <Route path="/myrecipes" exact>
+            <MyRecipesContainer 
+            recipeLibrary={this.state.recipeLibrary}
+            />
           </Route>
           <Route path="/">
             <LandingPage />
