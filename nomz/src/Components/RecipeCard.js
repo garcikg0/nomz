@@ -22,7 +22,7 @@ class RecipeCard extends React.Component {
                 <td className="recipe-cell">{ingred.text}</td>
                 <td className="recipe-cell"> 
                     <RecipeIngredients 
-                    ingredient={ingred.text}
+                    ingredient={ingred}
                     kitchenIngredients={this.props.kitchenIngredients}
                     />
                 </td>

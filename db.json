@@ -272,7 +272,16 @@
         {
           "text": "1¼ cup brown rice, preferably short grain",
           "weight": 237.5,
-          "image": "https://www.edamam.com/food-img/c45/c453c255234a6f7f798d3f2aaa74bbcd.jpg"
+          "image": "https://www.edamam.com/food-img/c45/c453c255234a6f7f798d3f2aaa74bbcd.jpg",
+          "ingredMatch": {
+            "id": 14,
+            "kitchen_id": 1,
+            "storage": "Pantry",
+            "name": "Rice",
+            "image": "https://static.thenounproject.com/png/3523933-200.png",
+            "status": "Available",
+            "notes": ""
+          }
         },
         {
           "text": "1½ pound Brussels sprouts",

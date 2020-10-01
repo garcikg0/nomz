@@ -16,28 +16,28 @@ class MainContainer extends React.Component {
                     <Col>
                         <Link to="/kitchen">
                         <Button variant="secondary" size="lg" block>
-                            Fridge
+                            My Kitchen
                         </Button>
                         </Link>
                     </Col>
                     <Col>
-                        <Link to="/kitchen">
+                        <Link to="/myrecipes">
                         <Button variant="secondary" size="lg" block>
-                            Freezer
+                            My Recipe Library
                         </Button>
                         </Link>
                     </Col>
                     <Col>
-                        <Link to="/kitchen">
+                        <Link to="/searchrecipe">
                         <Button variant="secondary" size="lg" block>
-                            Pantry
+                            Find a Recipe
                         </Button>
                         </Link>
                     </Col>
                 </Row>
             </Container>
             </div>
-            <div>
+            {/* <div>
             <Container fluid="md" className="homepage2">
                 <Row>
                     <Col className="homeButton">
@@ -54,7 +54,7 @@ class MainContainer extends React.Component {
                     </Col>
                 </Row>
             </Container>
-            </div>
+            </div> */}
             </>
         )
     }

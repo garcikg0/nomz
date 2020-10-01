@@ -26,12 +26,9 @@ class App extends React.Component {
   }
 
   render() {
-    
+    console.log(this.state.recipeLibrary)
     return(
         <Switch>
-          <Route path="/home" exact>
-            <MainContainer />
-          </Route>
           <Route path="/kitchen" exact>
             <KitchenContainer />
           </Route>
@@ -46,7 +43,10 @@ class App extends React.Component {
             recipeLibrary={this.state.recipeLibrary}
             />
           </Route>
-          <Route path="/">
+          <Route path="/home" exact>
+            <MainContainer />
+          </Route>
+          <Route path="/" exact>
             <LandingPage />
           </Route>
         </Switch>

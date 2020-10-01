@@ -20,8 +20,7 @@ class MyRecipesContainer extends React.Component {
         })
     }
 
-  
-    
+
     render() {
         let recipeArr = this.state.recipeLibrary.map((recipe) => {
             return <RecipeCard 

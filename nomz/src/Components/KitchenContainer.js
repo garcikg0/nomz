@@ -1,7 +1,7 @@
 import React from "react";
 // import { Route, Switch } from 'react-router-dom';
 import HomeNavBar from "./HomeNavBar";
-import { Button } from 'react-bootstrap';
+import { Button, InputGroup, FormControl } from 'react-bootstrap';
 import IngredientCard from "./IngredientCard";
 import AddIngredForm from "./AddIngredForm"
 
@@ -86,8 +86,17 @@ class KitchenContainer extends React.Component {
             <div className="subnav-container">  
                 <div className="subnav-search">
                     <h3>Search:</h3>
+                    <InputGroup className="mb-3">
+                        <FormControl
+                        placeholder="Recipient's username"
+                        aria-label="Recipient's username"
+                        aria-describedby="basic-addon2"
+                        />
+                        <InputGroup.Append>
+                        <Button variant="outline-secondary">Button</Button>
+                        </InputGroup.Append>
+                    </InputGroup>
                 </div>
-                
                 <div className="subnav-filter">
                     <h3>Filter:</h3>
                     <Button variant ="outline-info" className="filter-button">All</Button>

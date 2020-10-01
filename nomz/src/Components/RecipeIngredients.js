@@ -5,27 +5,40 @@ import { ListGroup, Button } from 'react-bootstrap';
 class RecipeIngredients extends React.Component {
 
     state = {
-        ingredMatch: ""
+        ingredMatch: this.props.ingredient.ingredMatch
+    }
+    
+    handleMatch = (evt) => {
+
     }
 
-//    ingredCheck = (recipeIngred) => {
     
-//     }   
 
     render() {
-        console.log(this.props.kitchenIngredients)
-        console.log(this.props.ingredient)
+
         let ingredCheck = this.props.kitchenIngredients.map((kitchenIngred) => {
-            if (this.props.ingredient.toLowerCase().includes(kitchenIngred.name.toLowerCase())) {
+            if (this.props.ingredient.text.toLowerCase().includes(kitchenIngred.name.toLowerCase())) {
                 return <ListGroup.Item>
                     {kitchenIngred.name}
-                    <Button variant="success">Match</Button>
+                    <Button variant="success">Match</Button>{''}
                     <Button variant="danger">Not a Match</Button>
                     </ListGroup.Item>
                 }
             })
 
-        
+        // let ingredMatch = this.state.ingredMatch.map((ingredObj) => {
+        //     return <ListGroup.Item>
+        //         {ingredObj.name} is Available in Your Kitchen's {ingredObj.storage}
+        //     </ListGroup.Item>
+        // })
+
+        // let ingredMatch = () => {
+        //     return<ListGroup.Item>
+        //         {this.state.ingredMatch.name} is Available in Your Kitchen's {this.state.ingredMatch.storage}!
+        //     </ListGroup.Item>
+        // }
+
+            
         return(
             <ListGroup variant="flush">
                 {ingredCheck}
