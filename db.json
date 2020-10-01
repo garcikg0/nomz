@@ -148,7 +148,7 @@
       "id": 17,
       "kitchen_id": 1,
       "storage": "Fridge",
-      "name": "Yogurt",
+      "name": "Greek Yogurt",
       "image": "https://static.thenounproject.com/png/3479403-200.png",
       "status": "Available",
       "notes": ""
@@ -193,7 +193,7 @@
       "id": 22,
       "kitchen_id": 1,
       "storage": "Pantry",
-      "name": "Bananas",
+      "name": "Banana",
       "image": "https://static.thenounproject.com/png/699439-200.png",
       "status": "Available",
       "notes": ""
@@ -210,7 +210,7 @@
     {
       "id": 25,
       "kitchen_id": 1,
-      "storage": "Freezer",
+      "storage": "Fridge",
       "name": "Frozen Pineapple",
       "image": "https://static.thenounproject.com/png/699439-200.png",
       "status": "Available",
@@ -242,6 +242,87 @@
       "image": "https://static.thenounproject.com/png/1434570-200.png",
       "status": "Low",
       "notes": ""
+    },
+    {
+      "kitchen_id": 1,
+      "storage": "Pantry",
+      "name": "Brussels Sprouts",
+      "image": "https://static.thenounproject.com/png/1434570-200.png",
+      "status": "Available",
+      "notes": "",
+      "id": 29
+    },
+    {
+      "kitchen_id": 1,
+      "storage": "Pantry",
+      "name": "Olive Oil",
+      "image": "https://static.thenounproject.com/png/1317946-200.png",
+      "status": "Available",
+      "notes": "",
+      "id": 30
+    },
+    {
+      "kitchen_id": 1,
+      "storage": "Fridge",
+      "name": "Soy Sauce",
+      "image": "https://static.thenounproject.com/png/1317946-200.png",
+      "status": "Available",
+      "notes": "",
+      "id": 31
+    },
+    {
+      "kitchen_id": 1,
+      "storage": "Pantry",
+      "name": "Honey",
+      "image": "https://static.thenounproject.com/png/1317946-200.png",
+      "status": "Available",
+      "notes": "",
+      "id": 32
+    },
+    {
+      "kitchen_id": 1,
+      "storage": "Pantry",
+      "name": "Cornstarch",
+      "image": "https://static.thenounproject.com/png/1015530-200.png",
+      "status": "Available",
+      "notes": "",
+      "id": 33
+    },
+    {
+      "kitchen_id": 1,
+      "storage": "Pantry",
+      "name": "Rice Vinegar",
+      "image": "https://static.thenounproject.com/png/1317946-200.png",
+      "status": "Available",
+      "notes": "",
+      "id": 34
+    },
+    {
+      "kitchen_id": 1,
+      "storage": "Pantry",
+      "name": "Sesame Oil",
+      "image": "https://static.thenounproject.com/png/1317946-200.png",
+      "status": "Available",
+      "notes": "",
+      "id": 35
+    },
+    {
+      "kitchen_id": 1,
+      "storage": "Pantry",
+      "name": "Sriracha",
+      "image": "https://static.thenounproject.com/png/1317946-200.png",
+      "status": "Available",
+      "notes": "",
+      "id": 36
+    },
+    {
+      "kitchen_id": 1,
+      "storage": "Pantry",
+      "name": "Plantains",
+      "image": "https://static.thenounproject.com/png/1434570-200.png",
+      "status": "Available",
+      "notes": "",
+      "id": 37
     }
   ],
   "recipes": [
@@ -858,6 +939,151 @@
         }
       ],
       "id": 7
+    },
+    {
+      "kitchen_id": 1,
+      "name": "Traditional Beef Pho Recipe",
+      "image": "https://www.edamam.com/web-img/e5d/e5d3b8674166e4507311f3ae1e6228b9.jpg",
+      "source": "Serious Eats",
+      "url": "http://www.seriouseats.com/recipes/2012/09/traditional-beef-pho-recipe.html?ref=search",
+      "ingredientLines": [
+        "2 large onions, split in half",
+        "1 large hand ginger (about 6 inches long), split in half lengthwise",
+        "3 pounds beef shin, with meat attached",
+        "2 pounds oxtail, cut into 1/2 to 1-inch thick slices",
+        "1 pound boneless beef chuck",
+        "1 pound beef brisket",
+        "3 whole star anise pods",
+        "1 cinnamon stick",
+        "1 teaspoon fennel seeds",
+        "4 cloves",
+        "1 teaspoon coriander seeds",
+        "1/4 cup fish sauce, plus more to taste",
+        "2 tablespoons sugar (preferably yellow rock sugar)",
+        "Kosher salt",
+        "To Serve:",
+        "6 to 8 servings pho noodles",
+        "1 pound beef flank steak, sliced thinly against the grain",
+        "2 to 3 cups mixed herbs (cilantro, basil, and mint)",
+        "2 to 3 cups trimmed bean sprouts",
+        "1/2 cup sliced scallions",
+        "Thinly sliced Thai chilis",
+        "2 limes, each cut into 4 wedges",
+        "Hoisin sauce and Sriracha"
+      ],
+      "ingredients": [
+        {
+          "text": "2 large onions, split in half",
+          "weight": 300,
+          "image": "https://www.edamam.com/food-img/205/205e6bf2399b85d34741892ef91cc603.jpg"
+        },
+        {
+          "text": "1 large hand ginger (about 6 inches long), split in half lengthwise",
+          "weight": 60,
+          "image": "https://www.edamam.com/food-img/b9c/b9c06ef451ef29513880af0a53ebbaa6.jpg"
+        },
+        {
+          "text": "3 pounds beef shin, with meat attached",
+          "weight": 1360.77711,
+          "image": "https://www.edamam.com/food-img/769/7693944597853171e289e9e6760e26dc.jpg"
+        },
+        {
+          "text": "2 pounds oxtail, cut into 1/2 to 1-inch thick slices",
+          "weight": 907.18474,
+          "image": null
+        },
+        {
+          "text": "1 pound boneless beef chuck",
+          "weight": 453.59237,
+          "image": "https://www.edamam.com/food-img/bab/bab88ab3ea40d34e4c8ae35d6b30344a.jpg"
+        },
+        {
+          "text": "1 pound beef brisket",
+          "weight": 453.59237,
+          "image": "https://www.edamam.com/food-img/e0d/e0dd59302a5bf4ff2d2e4797cdfe4160.jpg"
+        },
+        {
+          "text": "3 whole star anise pods",
+          "weight": 6,
+          "image": "https://www.edamam.com/food-img/bea/bea10bb0afae1e498edadf0aa1be805e.jpg"
+        },
+        {
+          "text": "1 cinnamon stick",
+          "weight": 2.6,
+          "image": "https://www.edamam.com/food-img/d4d/d4daa18b92c596a1c99c08537c38e65b.jpg"
+        },
+        {
+          "text": "1 teaspoon fennel seeds",
+          "weight": 2,
+          "image": "https://www.edamam.com/food-img/a40/a4059150e503052ae5a390af6e666873.jpg"
+        },
+        {
+          "text": "4 cloves",
+          "weight": 0.6,
+          "image": "https://www.edamam.com/food-img/8bc/8bc63f9742815a245d37e5f346674ca4.jpg"
+        },
+        {
+          "text": "1 teaspoon coriander seeds",
+          "weight": 1.8,
+          "image": "https://www.edamam.com/food-img/a90/a901cee0b9028841d258f5d07b5924e7.jpg"
+        },
+        {
+          "text": "1/4 cup fish sauce, plus more to taste",
+          "weight": 72.00000000121729,
+          "image": "https://www.edamam.com/food-img/7b5/7b58b769d8bf7b79acf12a76b79ea9bc.jpg"
+        },
+        {
+          "text": "2 tablespoons sugar (preferably yellow rock sugar)",
+          "weight": 24.9999999995774,
+          "image": "https://www.edamam.com/food-img/ecb/ecb3f5aaed96d0188c21b8369be07765.jpg"
+        },
+        {
+          "text": "Kosher salt",
+          "weight": 36.30443376001573,
+          "image": "https://www.edamam.com/food-img/694/6943ea510918c6025795e8dc6e6eaaeb.jpg"
+        },
+        {
+          "text": "6 to 8 servings pho noodles",
+          "weight": 1400,
+          "image": "https://www.edamam.com/food-img/800/800c9c0d7cef6b5474723682ffa2878d.jpg"
+        },
+        {
+          "text": "1 pound beef flank steak, sliced thinly against the grain",
+          "weight": 453.59237,
+          "image": "https://www.edamam.com/food-img/f8d/f8dedaeb7292857a4d92019961fb91fb.jpg"
+        },
+        {
+          "text": "2 to 3 cups mixed herbs (cilantro, basil, and mint)",
+          "weight": 108.000000001826,
+          "image": "https://www.edamam.com/food-img/89b/89b37a04e46e052671d73addcb84aa51.jpg"
+        },
+        {
+          "text": "2 to 3 cups trimmed bean sprouts",
+          "weight": 260,
+          "image": "https://www.edamam.com/food-img/ad4/ad4635efc3493d3b4f59f6479c1bd27b.jpg"
+        },
+        {
+          "text": "1/2 cup sliced scallions",
+          "weight": 50,
+          "image": "https://www.edamam.com/food-img/b89/b89986ed6aa466285bdd99bac34b3c46.jpg"
+        },
+        {
+          "text": "Thinly sliced Thai chilis",
+          "weight": 181.52216880007865,
+          "image": "https://www.edamam.com/food-img/469/469213672957a242638e20c27e3e8acd.jpeg"
+        },
+        {
+          "text": "2 limes, each cut into 4 wedges",
+          "weight": 134,
+          "image": "https://www.edamam.com/food-img/48a/48a123c9576647c4ada6a41df5eeb22a.jpg"
+        },
+        {
+          "text": "Hoisin sauce and Sriracha",
+          "weight": 0,
+          "image": "https://www.edamam.com/food-img/c52/c529c507459e9133ad8689cec193f713.jpg"
+        }
+      ],
+      "id": 8
     }
   ]
 }

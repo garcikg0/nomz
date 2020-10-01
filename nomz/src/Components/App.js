@@ -26,7 +26,6 @@ class App extends React.Component {
   }
 
   render() {
-    console.log(this.state.recipeLibrary)
     return(
         <Switch>
           <Route path="/kitchen" exact>

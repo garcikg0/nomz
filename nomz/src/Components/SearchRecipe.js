@@ -51,6 +51,12 @@ class SearchRecipe extends React.Component {
         })
     }
 
+    // inLibrary = () =>{
+    //     this.state.recipeSearchResults.map((recipe) => {
+
+    //     })
+    // }
+
     handleSearchTerm = (evt) => {
         let searchTyped = evt.target.value
         let urlSearchTerm = searchTyped.split(' ').join('+')

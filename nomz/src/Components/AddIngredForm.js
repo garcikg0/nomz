@@ -104,6 +104,7 @@ class AddIngredForm extends React.Component {
                                 <option></option>
                                 <option>Available</option>
                                 <option>Low</option>
+                                <option>In Cart</option>
                             </Form.Control>
                         </Col>
                     </Form.Group>

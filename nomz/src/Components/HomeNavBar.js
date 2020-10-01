@@ -8,7 +8,9 @@ class HomeNavbar extends React.Component {
             
         <Navbar expand="lg" bg="light">
             <div className="nav-layout">
-                <Navbar.Brand href="/home">Nomz</Navbar.Brand>
+                <Link to="/home">
+                <Navbar.Brand className="navHeader">Nomz</Navbar.Brand>
+                </Link>
                 <Nav>
                     <Nav.Item className="ml-auto">
                         <Nav className="button-spacing">

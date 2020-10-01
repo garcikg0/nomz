@@ -8,13 +8,14 @@ class LandingNavbar extends React.Component {
         return(
             <Container fluid>
             <Navbar expand="lg" bg="light">
-              <Navbar.Brand href="/">Nomz</Navbar.Brand>
+              <Navbar.Brand className="navHeader">Nomz</Navbar.Brand>
               <Nav className="container-fluid">
                 <Nav.Item className="ml-auto">
                   <Nav.Link>
                     <Link to="/home">
-                    <Button variant="success">Sign In</Button>
+                    <Button variant="success" size="sm">Log In</Button>{' '}
                     </Link>
+                    <Button variant="primary" size="sm">Sign Up</Button>
                   </Nav.Link>
                 </Nav.Item>
               </Nav>

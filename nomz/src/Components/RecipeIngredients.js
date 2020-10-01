@@ -8,20 +8,20 @@ class RecipeIngredients extends React.Component {
         ingredMatch: this.props.ingredient.ingredMatch
     }
     
-    handleMatch = (evt) => {
+    // handleMatch = (evt) => {
 
-    }
+    // }
 
     
 
     render() {
-
+        console.log(this.state.ingredMatch)
         let ingredCheck = this.props.kitchenIngredients.map((kitchenIngred) => {
             if (this.props.ingredient.text.toLowerCase().includes(kitchenIngred.name.toLowerCase())) {
                 return <ListGroup.Item>
-                    {kitchenIngred.name}
-                    <Button variant="success">Match</Button>{''}
-                    <Button variant="danger">Not a Match</Button>
+                    {kitchenIngred.name}    
+                    <Button variant="success" size="sm">Match</Button>{''}
+                    <Button variant="danger" size="sm">Not a Match</Button>
                     </ListGroup.Item>
                 }
             })
@@ -48,3 +48,9 @@ class RecipeIngredients extends React.Component {
 }
 
 export default RecipeIngredients;
+
+// (this.state.ingredMatch) {
+//     return <ListGroup.Item>
+//         {this.state.ingredMatch.name} is Available in Your Kitchen's {this.state.ingredMatch.storage}!
+//     </ListGroup.Item>
+// } else 
