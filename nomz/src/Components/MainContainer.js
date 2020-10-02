@@ -37,24 +37,7 @@ class MainContainer extends React.Component {
                 </Row>
             </Container>
             </div>
-            {/* <div>
-            <Container fluid="md" className="homepage2">
-                <Row>
-                    <Col className="homeButton">
-                        <Link to="/searchrecipe">
-                        <Button variant="secondary" size="lg">
-                            Find a Recipe
-                        </Button>
-                        </Link>
-                    </Col>
-                    <Col className="homeButton">
-                        <Button variant="secondary" size="lg">
-                            Add a Recipe
-                        </Button>
-                    </Col>
-                </Row>
-            </Container>
-            </div> */}
+
             </>
         )
     }
