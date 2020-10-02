@@ -7,6 +7,7 @@
 .homepage {
   margin-top: 20px;
   padding: 30px 15px; 
+  justify-content: space-between;
 }
 
   /* Container for Find&Add Recipe Buttons*/
@@ -347,4 +348,14 @@ div.col-md-6 {
 
 .home-card {
   max-height: 300px;
+}
+
+.main-images {
+  max-width: 100%;
+}
+
+.main-page {
+  margin-top: 200px;
+  padding: 30px 15px; 
+  justify-content: space-between;
 }

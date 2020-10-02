@@ -11,33 +11,36 @@ class MainContainer extends React.Component {
                 <HomeNavBar />
             </div>
             <div>
-            <Container fluid="md" className="homepage">
+            <Container fluid="md" className="main-page">
                 <Row>
                     <Col>
-                        <Link to="/kitchen">
-                        <Button variant="secondary" size="lg" block>
-                            My Kitchen
-                        </Button>
-                        </Link>
-                    </Col>
-                    <Col>
-                        <Link to="/myrecipes">
-                        <Button variant="secondary" size="lg" block>
-                            My Recipe Library
-                        </Button>
-                        </Link>
-                    </Col>
-                    <Col>
-                        <Link to="/searchrecipe">
-                        <Button variant="secondary" size="lg" block>
-                            Find a Recipe
-                        </Button>
-                        </Link>
-                    </Col>
-                </Row>
+                <div>
+                    <Link to="/kitchen">
+                    <img className="main-images" src="https://images.pexels.com/photos/3952043/pexels-photo-3952043.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=750&w=1260" ></img>
+                    </Link>
+                </div>
+                </Col>
+                <br></br>
+                <br></br>
+                <Col>
+                <div>
+                    <Link to="/myrecipes">
+                    <img className="main-images" src="https://www.almanac.com/sites/default/files/styles/primary_image_in_article/public/image_nodes/recipe-box.jpg?itok=dkqZiJ0X" ></img>
+                    </Link>
+                </div>
+                </Col>
+                <br></br>
+                <br></br>
+                <Col>
+                <div>
+                    <Link to="/searchrecipe">
+                    <img className="main-images" src="https://images.pexels.com/photos/4049786/pexels-photo-4049786.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=750&w=1260" ></img>
+                    </Link>
+                </div>
+                </Col>
+                </Row>     
             </Container>
             </div>
-
             </>
         )
     }
