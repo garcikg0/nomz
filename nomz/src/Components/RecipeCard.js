@@ -49,6 +49,9 @@ class RecipeCard extends React.Component {
                     onClick={this.handleClick} >
                         Ingredients
                     </Button>{" "}
+                    <Button variant="outline-danger" size="sm" className="grocery-list-button">
+                        Delete
+                    </Button>
                 </Col>
                 <Collapse in={this.state.open}>
                     <div className="recipe-collapse">

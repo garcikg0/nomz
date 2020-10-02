@@ -7,7 +7,9 @@ class GroceryNavBar extends React.Component {
         return(
             <Container fluid>
                 <Navbar expand="lg" bg="light">
+                    <Link to="/home">
                     <Navbar.Brand className="navHeader">Nomz</Navbar.Brand>
+                    </Link>
                     <Nav className="container-fluid">
                         <Nav.Item className="ml-auto">
                             <Nav.Link>

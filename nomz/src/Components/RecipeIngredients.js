@@ -19,9 +19,7 @@ class RecipeIngredients extends React.Component {
         let ingredCheck = this.props.kitchenIngredients.map((kitchenIngred) => {
             if (this.props.ingredient.text.toLowerCase().includes(kitchenIngred.name.toLowerCase())) {
                 return <ListGroup.Item>
-                    {kitchenIngred.name}    
-                    <Button variant="success" size="sm">Match</Button>{''}
-                    <Button variant="danger" size="sm">Not a Match</Button>
+                    {kitchenIngred.name} 
                     </ListGroup.Item>
                 }
             })

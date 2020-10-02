@@ -82,7 +82,7 @@ class KitchenContainer extends React.Component {
         <div>
             <HomeNavBar />
         </div>
-        <div className="subnav">
+        {/* <div className="subnav">
             <div className="subnav-container">  
                 <div className="subnav-search">
                     <h3>Search:</h3>
@@ -105,7 +105,7 @@ class KitchenContainer extends React.Component {
                     <Button variant ="outline-info" className="filter-button">Pantry</Button>
                 </div>
             </div>
-        </div>
+        </div> */}
         
         <AddIngredForm addIngredient={this.addIngredient} />
         

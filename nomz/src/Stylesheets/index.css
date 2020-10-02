@@ -352,10 +352,40 @@ div.col-md-6 {
 
 .main-images {
   max-width: 100%;
+  position: relative;
+  display: block;
 }
 
 .main-page {
   margin-top: 200px;
+  margin-left: 20px;
+  margin-right: 20px;
   padding: 30px 15px; 
   justify-content: space-between;
+}
+
+.image-overlay{
+  position: absolute;
+  width: 95.2%;
+  top: 0;
+  height:100%;
+  background: rgba(0,0,0,0.6);
+  color: white;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  opacity: 0;
+  transition: opacity 0.25s;
+}
+
+.image-overlay:hover{
+  opacity: 1;
+}
+
+
+.image-title {
+  font-size: 3em;
+  font-weight: bold;
+  font-family: 'Caveat', cursive;
 }

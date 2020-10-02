@@ -48,6 +48,9 @@ class AddIngredForm extends React.Component {
         .then(res => res.json())
         .then((newIngred) => {
             this.props.addIngredient(newIngred)
+            this.setState({
+                show:false
+            })
         })
     }
 
